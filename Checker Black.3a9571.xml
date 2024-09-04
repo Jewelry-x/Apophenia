@@ -1,0 +1,24 @@
+<button 
+    onClick="setUpCards(0)"
+    position="0 200 -30"
+    width="600"
+    height="200"
+    fontSize="72">
+    Normal
+</button>
+<button 
+    onClick="setUpCards(1)"
+    position="0 0 -30"
+    width="600"
+    height="200"
+    fontSize="72">
+    Hard
+</button>
+<button 
+    onClick="setUpCards(2)"
+    position="0 -200 -30"
+    width="600"
+    height="200"
+    fontSize="72">
+    Nightmare
+</button>
