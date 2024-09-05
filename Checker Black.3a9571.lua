@@ -20,6 +20,10 @@ function setUpCards(player, difficulty)
         parts[part].randomize()
     end
 
+    for part = difficulty + 2, 4, 1 do
+        destroyObject(getObjectFromGUID(ENCOUNTER_DECK[part]))
+    end
+
     group(parts)
   
 end
