@@ -1,24 +1,49 @@
-<button 
-    onClick="setUpCards(0)"
-    position="0 200 -30"
-    width="600"
-    height="200"
-    fontSize="72">
-    Normal
-</button>
-<button 
-    onClick="setUpCards(1)"
-    position="0 0 -30"
-    width="600"
-    height="200"
-    fontSize="72">
-    Hard
-</button>
-<button 
-    onClick="setUpCards(2)"
-    position="0 -200 -30"
-    width="600"
-    height="200"
-    fontSize="72">
-    Nightmare
-</button>
+<Panel id="encounterPanel" width="600" height="400" color="#CCCCCC" outline="#555555" position="0 0 -30">
+    <!-- Title Text -->
+    <Text fontSize="35" alignment="MiddleCenter" offsetXY="0 80" color="#000000" text="PLEASE SELECT THE DESIRED" />
+
+    <!-- Line 2: "Encounter Level" -->
+    <Text fontSize="35" alignment="MiddleCenter" offsetXY="0 30" color="#000000" text="ENCOUNTER LEVEL" />
+    
+    <!-- Text above Normal Button -->
+    <Text fontSize="30" alignment="MiddleLeft" offsetXY="50 -50" color="#000000" text="Normal" />
+    
+    <!-- Text above Hard Button -->
+    <Text fontSize="30" alignment="MiddleCenter" offsetXY="0 -50" color="#000000" text="Hard" />
+    
+    <!-- Text above Nightmare Button -->
+    <Text fontSize="30" alignment="MiddleRight" offsetXY="-30 -50" color="#000000" text="Nightmare" />
+    
+
+    <!-- Normal Button -->
+    <Button id="normalButton" 
+            rectAlignment="LowerCenter" 
+            offsetXY="-200 50"
+            width="60" 
+            height="60" 
+            text="2"
+            onClick="setUpCards(0)"
+            fontSize="30" />
+
+    <!-- Hard Button -->
+    <Button id="hardButton" 
+            rectAlignment="LowerCenter" 
+            offsetXY="0 50"
+            width="60" 
+            height="60" 
+            text="3"
+            onClick="setUpCards(1)"
+            fontSize="30" />
+
+    <!-- Nightmare Button -->
+    <Button id="nightmareButton" 
+            rectAlignment="LowerCenter" 
+            offsetXY="200 50"
+            width="60" 
+            height="60" 
+            text="4"
+            onClick="setUpCards(2)"
+            fontSize="30" />
+</Panel>
+
+
