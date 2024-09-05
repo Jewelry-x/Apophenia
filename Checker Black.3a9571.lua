@@ -1,5 +1,6 @@
 DECK_GUID = Global.getVar('EVENT_DECK_GUID')
 ENCOUNTER_DECK = Global.getTable('ENCOUNTER_DECK_GUID')
+CHECKER = Global.getVar('CHECKER')
 
 function setUpCards(player, difficulty)
     -- Get the original deck
@@ -25,5 +26,6 @@ function setUpCards(player, difficulty)
     end
 
     group(parts)
-  
+    
+    destroyObject(getObjectFromGUID(CHECKER))
 end

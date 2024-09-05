@@ -1,2 +1,3 @@
 EVENT_DECK_GUID = "965cdb"
 ENCOUNTER_DECK_GUID = {"baf805", "078cf2", "c0d2ae", "4899ac"}
+CHECKER = "3a9571"
