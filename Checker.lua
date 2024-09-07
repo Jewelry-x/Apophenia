@@ -40,16 +40,16 @@ function setUpCards(player, difficulty)
         print(color)
 
         if color == "Purple" then
-            getObjectFromGUID(PLAYER_TILES[1]).setPosition({x = 0, y = 5, z = -3})
+            getObjectFromGUID(PLAYER_TILES[1]).setPosition({x = 0, y = 5, z = -2.3})
 
         elseif color == "Yellow" then
-            getObjectFromGUID(PLAYER_TILES[2]).setPosition({x = 0, y = 5, z = 0})
+            getObjectFromGUID(PLAYER_TILES[2]).setPosition({x = 0, y = 5, z = -1.2})
 
         elseif color == "Blue" then
-             getObjectFromGUID(PLAYER_TILES[3]).setPosition({x = 2, y = 5, z = 0})
+             getObjectFromGUID(PLAYER_TILES[3]).setPosition({x = 2, y = 5, z = -1.2})
 
         elseif color == "Orange" then
-             getObjectFromGUID(PLAYER_TILES[4]).setPosition({x = 2, y = 5, z = -3})
+             getObjectFromGUID(PLAYER_TILES[4]).setPosition({x = 2, y = 5, z = -2.3})
         end
     end
 
