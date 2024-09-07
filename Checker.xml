@@ -45,5 +45,3 @@
             onClick="setUpCards(2)"
             fontSize="30" />
 </Panel>
-
-

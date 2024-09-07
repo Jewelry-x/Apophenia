@@ -1,0 +1,5 @@
+EVENT_DECK_GUID = "965cdb"
+ENCOUNTER_DECK_GUID = {"baf805", "078cf2", "c0d2ae", "4899ac"}
+ITEM_DECK_GUID = "5d2a15"
+ENEMY_DECK_GUID = "907915"
+PLAYER_TILES_GUID = {"e6ab1e", "5d947c", "acd90d", "7a9e2a"}
